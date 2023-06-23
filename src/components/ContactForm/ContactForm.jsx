@@ -30,8 +30,6 @@ const ContactForm = () => {
       alert(
         `The contact with the name "${name}" already exists in the phonebook!`
       );
-      setName('');
-      setNumber('');
       return;
     }
 
